@@ -1,0 +1,16 @@
+<header class="site-header" [class.open]="menuOpen">
+  <div class="container header-inner">
+    <a class="brand" href="/" title="Tucán Code" (click)="closeMenu()">
+      <img src="/assets/logo-tucan.jpg" alt="Tucán Code" class="brand-logo" width="32" height="32" />
+      <span class="brand-text">Tucán Code</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" [attr.aria-expanded]="menuOpen" (click)="toggleMenu()">☰</button>
+    <nav class="nav">
+      <a href="#inicio" (click)="closeMenu()">Inicio</a>
+      <a href="#servicios" (click)="closeMenu()">Servicios</a>
+      <a href="#proyectos" (click)="closeMenu()">Proyectos</a>
+      <a href="#nosotros" (click)="closeMenu()">Nosotros</a>
+      <a class="btn btn-sm" href="#contacto" (click)="closeMenu()">Contacto</a>
+    </nav>
+  </div>
+</header>

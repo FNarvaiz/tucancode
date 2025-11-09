@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solicitud de Eliminación de Datos | Tucán Code</title>
+  <meta name="description" content="Pasos y requisitos para solicitar la eliminación de tus datos personales en Tucán Code.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0e0f12;--surface:#151821;--text:#e9eef7;--muted:#9aa3b2;--brand:#7c4dff;--brand-2:#00e5ff}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:inherit}
+    .container{max-width:900px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(14,15,18,0.7);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,0.06)}
+    header .inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{font-weight:700}
+    .menu-toggle{display:none;align-items:center;justify-content:center;width:40px;height:40px;border-radius:8px;border:1px solid rgba(255,255,255,0.12);background:transparent;color:var(--text);cursor:pointer}
+    main{padding:24px 0}
+    h1{font-size:28px;margin:0 0 12px}
+    h2{font-size:20px;margin:28px 0 8px}
+    p,li{color:var(--muted);line-height:1.7}
+    .card{background:var(--surface);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:16px;margin:12px 0}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;color:#fff;background:linear-gradient(135deg,var(--brand),var(--brand-2));border:none}
+    footer{border-top:1px solid rgba(255,255,255,0.06);padding:24px 0;margin-top:20px}
+    footer .foot{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .dot{opacity:.5}
+    .content-logo-large{display:block;width:min(90%,520px);max-width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35);margin:20px auto}
+    ol{padding-left:18px}
+    ol li{margin:6px 0}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+
+    /* Responsive header */
+    @media (max-width: 720px){
+      header .inner{flex-wrap:wrap;height:auto;padding:10px 0;gap:10px}
+      .menu-toggle{display:inline-flex}
+      header nav{display:none;width:100%}
+      header.open nav{display:block}
+      header nav .btn{display:block;width:100%;text-align:center}
+    }
+  </style>
+  <link rel="icon" href="/favicon.ico">
+  <base href="/">
+  </head>
+<body>
+  <header id="siteHeader">
+    <div class="container inner">
+      <a class="brand" href="/" title="Tucán Code" style="display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:inherit">
+        <img src="/assets/logo-tucan.jpg" alt="Tucán Code" style="width:28px;height:28px;border-radius:6px;object-fit:cover" />
+        <strong>Tucán Code</strong>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"
+        onclick="(function(btn){const h=document.getElementById('siteHeader');const o=h.classList.toggle('open');btn.setAttribute('aria-expanded',o);})(this)">☰</button>
+      <nav>
+        <a class="btn" href="/">Volver al sitio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Solicitud de Eliminación de Datos</h1>
+      <p class="muted">Última actualización: 09/11/2025</p>
+      <img src="/assets/logo-grande.jpg" alt="Tucán Code" class="content-logo-large" />
+
+      <div class="card">
+        <h2>Resumen</h2>
+        <p>Podés pedir que eliminemos tus datos personales que obren en nuestro poder, salvo información que debamos conservar por obligaciones legales, contractuales o de auditoría. A continuación, los pasos para solicitarlo.</p>
+      </div>
+
+      <div class="card">
+        <h2>Pasos para la solicitud</h2>
+        <ol>
+          <li><strong>Prepará tu pedido por email.</strong> Escribinos a <a href="mailto:hola@tucancode.ar?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20datos">hola@tucancode.ar</a> con el asunto <span class="mono">“Solicitud de eliminación de datos”</span>.</li>
+          <li><strong>Incluí estos datos mínimos:</strong>
+            <ul>
+              <li>Nombre y apellido.</li>
+              <li>Email asociado a nuestros servicios o comunicaciones.</li>
+              <li>Alcance del pedido (total o sobre servicios específicos).</li>
+              <li>Información adicional útil para identificar tus registros (p. ej., fechas aproximadas, proyecto/servicio).</li>
+            </ul>
+          </li>
+          <li><strong>Verificación de identidad.</strong> Para tu seguridad, podemos solicitar que respondas desde el mismo email asociado o que aportes una verificación adicional razonable.</li>
+          <li><strong>Confirmación del alcance.</strong> Te informaremos qué datos podemos borrar y qué datos debemos conservar temporalmente (p. ej., facturación o por requerimientos legales).</li>
+          <li><strong>Ejecución y confirmación.</strong> Eliminaremos/anonimizaremos los datos aplicables y te enviaremos una confirmación por escrito.</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>Plazos estimados</h2>
+        <p>Respondemos tu solicitud dentro de <strong>30 días corridos</strong>. Si por complejidad o volumen necesitamos más tiempo, te avisaremos con los motivos y el plazo adicional.</p>
+      </div>
+
+      <div class="card">
+        <h2>Limitaciones y excepciones</h2>
+        <p>Podemos conservar datos cuando sea necesario para: (a) cumplir obligaciones legales o fiscales, (b) resolver disputas, (c) hacer valer acuerdos, o (d) mantener registros imprescindibles de seguridad/operación por un tiempo limitado.</p>
+      </div>
+
+      <div class="card">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:hola@tucancode.ar?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20datos">hola@tucancode.ar</a></p>
+        <p>Sitio: <a href="https://tucancode.ar/" target="_blank" rel="noopener">tucancode.ar</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container foot">
+      <span>© Tucán Code</span>
+      <span class="dot">•</span>
+      <a href="/">Inicio</a>
+      <span class="dot">•</span>
+      <a href="/privacidad.html">Privacidad</a>
+      <span class="dot">•</span>
+      <a href="/eliminacion-datos.html">Eliminar datos</a>
+    </div>
+  </footer>
+  </body>
+  </html>
